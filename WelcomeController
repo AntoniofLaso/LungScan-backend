@@ -9,6 +9,7 @@ public class WelcomeController {
     @GetMapping("/pulmoscan/welcome")
     public String welcomeMessage() {
         System.out.println("Mostrando mensaje de bienvenida...");
+        System.out.println("Timestamp: " + java.time.Instant.now());
         return "Bienvenido a PulmoScan IA - Sistema de detección de cáncer de pulmón";
     }
 }
