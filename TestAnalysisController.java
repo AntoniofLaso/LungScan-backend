@@ -11,6 +11,6 @@ public class TestAnalysisController {
     @GetMapping("/pulmoscan/analyze-test")
     public String testAnalysis() {
         System.out.println("Entrando al análisis de prueba... " + Instant.now());
-        return "Resultado simulado: No se detectan anomalías. Probabilidad de cáncer: 2.3%";
+        return "Resultado simulado: No se detectan anomalías. Probabilidad de cáncer: 2.0%";
     }
 }
