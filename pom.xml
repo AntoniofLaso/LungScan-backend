@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>ZA</groupId>
 	<artifactId>LungScan-AI</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>LungScan-AI</name>
 	<description>Proyecto LungScan AI</description>
 	<url/>
